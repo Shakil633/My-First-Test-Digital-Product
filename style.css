@@ -24,8 +24,8 @@
   cursor: pointer;
 }
 .item:hover {
-  background-color: #000;
-  color: aqua;
+  background-color: black;
+  color: white;
 }
 .container-banner {
   display: flex;
