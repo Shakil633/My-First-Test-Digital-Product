@@ -65,8 +65,7 @@
 .title-about {
   text-align: center;
   margin-top: 20px;
-  color: #f9f9f9;
-  padding-top: 40px;
+  color: black;
   padding-bottom: 10px;
 }
 .icon {
@@ -100,4 +99,10 @@
   height: 100vh;
   background-image: url("./images/background.png"),
     linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+}
+.title-box{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:10px;
 }
