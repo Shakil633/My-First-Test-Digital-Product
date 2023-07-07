@@ -55,6 +55,19 @@
   color: white;
   border-radius: 5px;
 }
+.container-button:hover{
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.4s ease;
+}
+
+.contact{
+  background-color: black;
+}
+.contact:hover{
+  background-color: #ff0000;
+  color: white;
+}
 .about-container {
   display: flex;
   justify-content: space-around;
@@ -100,9 +113,41 @@
   background-image: url("./images/background.png"),
     linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
 }
-.title-box{
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    padding-bottom:10px;
+.title-box {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+footer {
+  height: 80vh;
+  background-image: url("./images/background.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 80px;
+  line-height: 1.8em;
+}
+
+.logo-box {
+  width: 230px;
+}
+.icons {
+  margin-top: 10px;
+}
+.footer-title {
+  margin-bottom: 30px;
+}
+.hr{
+  margin-top: 60px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.copy{
+  color: white;
+  margin-top: 20px;
+  text-align: center;
 }
